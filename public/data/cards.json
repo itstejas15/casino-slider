@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Game 1",
+    "image": "data/images/logo.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "name": "Game 2",
+    "image": "data/images/logo.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "name": "Game 3",
+    "image": "data/images/logo.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "name": "Game 4",
+    "image": "data/images/logo.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "name": "Game 5",
+    "image": "data/images/logo.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "name": "Game 6",
+    "image": "data/images/logo.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "name": "Game 7",
+    "image": "data/images/logo.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "name": "Game 8",
+    "image": "data/images/logo.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "name": "Game 9",
+    "image": "data/images/logo.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "name": "Game 10",
+    "image": "data/images/logo.png",
+    "icon": "data/icons/icon.svg"
+  }
+]

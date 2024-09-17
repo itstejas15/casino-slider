@@ -1,0 +1,159 @@
+.sliderContainer {
+  padding: 20px;
+  text-align: center;
+
+  .title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .seeAll {
+    display: inline-block;
+    margin-top: 4px;
+    text-decoration: none;
+    color: #616161;
+    font-weight: bold;
+  }
+
+  .seeAll:hover {
+    color: #005bb5;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &Image {
+      width: 100%;
+      object-fit: cover;
+    }
+
+    &Content {
+      display: flex;
+      align-items: center;
+      margin-top: 10px;
+
+      &Icon {
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+      }
+
+      &Name {
+        font-size: 16px;
+      }
+    }
+  }
+
+  //new styles
+  // .sliderContainer {
+  //   width: 100%;
+  //   padding: 20px;
+  //   background-color: #f9f9f9;
+  // }
+
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 1rem 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .cardImage {
+    width: 80%;
+    height: auto;
+    display: flex;
+    border-radius: 10px;
+  }
+
+  .cardContent {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 0;
+    background-color: #fff;
+  }
+
+  .cardIcon {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+  }
+
+  .cardName {
+    font-size: 16px;
+    color: #333;
+  }
+
+  // Breakpoint styles
+  @media (max-width: 599px) {
+    .card {
+      width: 160px;
+      height: 151px;
+
+      &Image {
+        width: 160px;
+        height: 115px;
+      }
+    }
+  }
+
+  @media (min-width: 600px) and (max-width: 1023px) {
+    .card {
+      width: 160px;
+      height: 151px;
+
+      &Image {
+        width: 160px;
+        height: 115px;
+      }
+    }
+  }
+
+  @media (min-width: 1024px) and (max-width: 1280px) {
+    .card {
+      width: 208px;
+      height: 198px;
+
+      &Image {
+        width: 208px;
+        height: 150px;
+      }
+    }
+  }
+
+  @media (min-width: 1281px) and (max-width: 1599px) {
+    .card {
+      width: 209px;
+      height: 199px;
+
+      &Image {
+        width: 209px;
+        height: 151px;
+      }
+    }
+  }
+
+  @media (min-width: 1600px) {
+    .card {
+      width: 248px;
+      height: 228px;
+
+      &Image {
+        width: 248px;
+        height: 180px;
+      }
+    }
+  }
+}
