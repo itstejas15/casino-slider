@@ -25,3 +25,8 @@ body {
     text-wrap: balance;
   }
 }
+
+div.swiper-button-next,
+.swiper-button-prev {
+  color: #edc200 !important;
+}
